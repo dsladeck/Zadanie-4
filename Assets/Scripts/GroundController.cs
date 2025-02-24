@@ -18,7 +18,10 @@ public class GroundController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+
+
+
+void Update()
     {
         if (startMove == true)
         {
