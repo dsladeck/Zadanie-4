@@ -27,7 +27,7 @@ public class MetaController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.z < 0)
+        if (transform.position.z > 0)
         {
             if (isExitGameMeta)
             {

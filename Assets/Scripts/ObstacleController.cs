@@ -15,7 +15,7 @@ public class ObstacleController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.z > 44.5f) //Sprawdzamy czy pozycja kostki jest mniejsza niz 44.5 na osi Z
+        if (transform.position.z > 46f) //Sprawdzamy czy pozycja kostki jest mniejsza niz 46 na osi Z
         {
             playerController.points = playerController.points + 1; //Dodajemy do zmiennej Points 1
             Destroy(gameObject); //Niszczymy ten obiekt
